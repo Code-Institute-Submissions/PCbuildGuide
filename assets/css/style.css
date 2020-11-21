@@ -86,7 +86,8 @@
 
 .callout,
 .main,
-.news {
+.news,
+.contact {
     background: rgba(0, 0, 0, 0.8);
     background-image: url("../images/landing.jpg");
     background-blend-mode: overlay;
