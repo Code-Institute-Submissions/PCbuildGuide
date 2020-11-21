@@ -25,7 +25,7 @@
                         <a href="builds.html"><span>Builds</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem">
-                        <a href="#"><span>News</span></a>
+                        <a href="news.html"><span>News</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem">
                         <a href="contact.html"><span>Contact</span></a>
@@ -35,7 +35,24 @@
         </div>
     </header>
     <section class="container-fluid contact">
-
+        <form>
+            <div class="form-name">
+                <label for="InputName">Name</label>
+                <input type="text" class="form-control" id="InputName">
+            </div>
+            <div class="form-email">
+                <label for="InputEmail">Email</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-text">
+                <label for="FormTextarea">Example textarea</label>
+                <textarea class="form-control" id="FormTextarea" rows="10"></textarea>
+            </div>
+            <div class="btn-form">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </section>
 
 </body>
