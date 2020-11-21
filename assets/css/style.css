@@ -84,6 +84,102 @@
 
 /* --------------------------- Section */
 
+.callout,
+.main,
+.news {
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url("../images/landing.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    font-family: "Goldman", sans-serif;
+}
+
+
+/*  Timeline    */
+
+.timeline-row {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.timeline {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.514);
+    height: 400px;
+    border: 2px solid purple;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-date);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Goldman", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline h3,
+.timeline-item {
+    color: black;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: rgb(97, 1, 97);
+}
+
+
+/*  News    */
+
+.card-news {
+    height: 400px;
+    background-color: #fafafa;
+    border: 2px solid purple;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card-img-news {
+    background-size: contain;
+    width: 100%;
+    height: 50%;
+}
+
 
 /*  Card    */
 
@@ -91,6 +187,7 @@
     width: 25rem;
     border: 3px solid white;
     background-color: #fafafa;
+    text-align: center;
 }
 
 .list-group-item {
@@ -104,22 +201,6 @@
 
 /*  Callout */
 
-.callout,
-.main {
-    background: rgba(0, 0, 0, 0.8);
-    background-image: url("../images/landing.jpg");
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 0;
-    text-align: center;
-    font-family: "Goldman", sans-serif;
-}
-
 .super {
     font-size: 60px;
 }
@@ -127,6 +208,11 @@
 .callout h1 {
     color: #fafafa;
     margin-bottom: 50px;
+}
+
+.callout h1,
+.super {
+    text-align: center;
 }
 
 
@@ -170,6 +256,10 @@ h3 {
 
 .btn-card {
     background-color: black;
+}
+
+.callout-btn {
+    text-align: center;
 }
 
 
