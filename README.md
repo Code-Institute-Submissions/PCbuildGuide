@@ -12,7 +12,7 @@ Since the website was built for people with little to no knowledge of computers,
 
 I believe that I have done just that, by having a spaced out and easy-going experience which takes minimal time to absorb.
 
-[a relative link](assets\documents\PC_build.pdf) here is a wireframe that I have drawn up before starting the project, however it has failed me with massively outdated layout and overbearingness of information. It had to be scrapped and re-imagined, and this current project state is where I arrived.
+[Pc build.pdf](assets\documents\PC_build.pdf) here is a wireframe that I have drawn up before starting the project, however it has failed me with massively outdated layout and overbearingness of information. It had to be scrapped and re-imagined, and this current project state is where I arrived.
 
 ## Features
 
@@ -49,4 +49,4 @@ The deployed version and in development versions as the same.
 ### Content
 Majority of the code principle and code snippets were based off code institute lectures and bootstrap documentation.
 ### Acknowledgments
-I received inspiration for this project from [a link](https://github.com/damianism/custom_pc)
+I received inspiration for this project from [Damianism Github](https://github.com/damianism/custom_pc)
