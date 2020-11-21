@@ -12,7 +12,7 @@ Since the website was built for people with little to no knowledge of computers,
 
 I believe that I have done just that, by having a spaced out and easy-going experience which takes minimal time to absorb.
 
-[Pc build.pdf](assets\documents\PC_build.pdf) here is a wireframe that I have drawn up before starting the project, however it has failed me with massively outdated layout and overbearingness of information. It had to be scrapped and re-imagined, and this current project state is where I arrived.
+assets\documents\PC_build.pdf here is where you can find a wireframe that I have drawn up before starting the project, however it has failed me with massively outdated layout and overbearingness of information. It had to be scrapped and re-imagined, and this current project state is where I arrived.
 
 ## Features
 
