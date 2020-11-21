@@ -2,12 +2,13 @@
 
 /*  ---------------------------------------------------------  Header  */
 
+
 /*  Logo    */
 
 .logo {
     margin: 0;
     padding: 0;
-    width:100%;
+    width: 100%;
     position: absolute;
 }
 
@@ -18,8 +19,8 @@
     font-weight: 600;
 }
 
-/*  Navbar   */
 
+/*  Navbar   */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -39,6 +40,7 @@
     padding-left: 6vh;
     padding-right: 6vh;
 }
+
 
 /*  Menu Items  */
 
@@ -79,12 +81,32 @@
     transition-duration: 0.6s;
 }
 
+
 /* --------------------------- Section */
+
+
+/*  Card    */
+
+.card {
+    width: 25rem;
+    border: 3px solid white;
+    background-color: #fafafa;
+}
+
+.list-group-item {
+    background-color: #fafafa;
+}
+
+.card-header {
+    background-color: rgba(128, 0, 128, 0.589);
+}
+
 
 /*  Callout */
 
-.callout {
-    background: rgba(0,0,0, 0.8);
+.callout,
+.main {
+    background: rgba(0, 0, 0, 0.8);
     background-image: url("../images/landing.jpg");
     background-blend-mode: overlay;
     background-size: cover;
@@ -93,7 +115,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding:  0;
+    padding: 0;
     text-align: center;
     font-family: "Goldman", sans-serif;
 }
@@ -107,7 +129,29 @@
     margin-bottom: 50px;
 }
 
-/*  Callout button  */
+
+/*  Description */
+
+.description p,
+h3 {
+    text-align: center;
+}
+
+.description h3 {
+    font-family: "Goldman", sans-serif;
+}
+
+.description p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.row-budget {
+    background-color: rgba(128, 0, 128, 0.589);
+}
+
+
+/*  Button  */
 
 .btn {
     border: 5px solid purple;
@@ -124,6 +168,11 @@
     border-color: #fafafa;
 }
 
+.btn-card {
+    background-color: black;
+}
+
+
 /*  Footer  */
 
 footer {
@@ -133,6 +182,7 @@ footer {
     margin: 0;
     text-align: center;
 }
+
 
 /*  Text adjustments    */
 
@@ -145,6 +195,7 @@ footer {
     font-weight: 300;
     color: #fafafa;
 }
+
 
 /*  Footer>> Social links   */
 
