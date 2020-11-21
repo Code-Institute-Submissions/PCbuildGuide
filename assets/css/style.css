@@ -249,24 +249,21 @@ form {
 }
 
 
-/*  Description */
+/*  Accordion */
 
-.description p,
-h3 {
+.accordion {
+    background-color: #fafafa;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.description h3 {
+.accordion-card {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.accordion p {
     font-family: "Goldman", sans-serif;
-}
-
-.description p {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.row-budget {
-    background-color: rgba(128, 0, 128, 0.589);
 }
 
 
@@ -293,6 +290,22 @@ h3 {
 
 .callout-btn {
     text-align: center;
+}
+
+.btn-build {
+    font-family: "Goldman", sans-serif;
+    border: 5px solid purple;
+    border-radius: 30px;
+    color: #fafafa;
+    background-color: black;
+    transition-duration: 0.4s;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn-build:hover {
+    background-color: black;
+    color: #fafafa;
+    border-color: purple;
 }
 
 
