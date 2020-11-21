@@ -1,0 +1,27 @@
+body {
+    background: rgba(0,0,0, 0.8);
+    background-image: url("../images/landing.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-item {
+    height: 32rem;
+    width: 29rem;
+    background: #777;
+    text-align: center;
+}
+
+.carousel-item.PC1{
+    background-image: url("../images/PC1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.carousel-item.PC2{
+    background-image: url("../images/PC2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
