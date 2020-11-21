@@ -1,45 +1,52 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## PC build guide
 
-Welcome Ezyy,
+This project has been done in order to help user decide what kind of computer he would want to invest in without any prior knowledge.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+It gives options for 3 different pricing options and a very brief explanation of what these builds contain and what they excel at.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In my Ux design process, I have tunneled on the goal of making it a relaxed, modern and no distractions environment. 
 
-`python3 -m http.server`
+Since the website was built for people with little to no knowledge of computers, my main goal was to not overload the user on information and make it a light read informing them before presenting a link to the vendor's website.
 
-A blue button should appear to click: *Make Public*,
+I believe that I have done just that, by having a spaced out and easy-going experience which takes minimal time to absorb.
 
-Another blue button should appear to click: *Open Browser*.
+[a relative link](assets\documents\PC_build.pdf) here is a wireframe that I have drawn up before starting the project, however it has failed me with massively outdated layout and overbearingness of information. It had to be scrapped and re-imagined, and this current project state is where I arrived.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: *Make Public*,
+### Existing Features
 
-Another blue button should appear to click: *Open Browser*.
+* Feature 1 = Landing page which welcomes a user and invites to explore the content with a super relaxed and easily absorbed approach (button).
+* Feature 2 = The Builds page gives user a selection of 3 computer builds that is non-intrusive and very minimal, it also allows the user to continue reading about the computer upon a click of a button.
+* Feature 3 = Gives the 3 top latest news from 3 different dominant vendors in the market segment of home PCs with a timeline oh which arrived when.
+* Feature 4 = Contact form, again super easy and intuitive to use and navigate as it is a simple form.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies Used
 
-## Updates Since The Instructional Video
+* HTML5 
+* CSS
+* Bootstrap 4.5.3
+* Font Awesome 5.15.1
+* Google Fonts
+* Visual Studio Code
+* Chrome developer tools
+* Github and Git, both on their own and VSC extensions
+* Gitpod was used before the project migrated over to VSC to develop locally.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Most testing has been done with a local web server running and reacting to code changes in real-time.
+It was all tested on a 1440p monitor and iPhone 6/7/8 chrome developer view.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The code has been deployed from a local Visual Studio Code workspace to github via Git. 
+The deployed version and in development versions as the same.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Credits
+### Content
+Majority of the code principle and code snippets were based off code institute lectures and bootstrap documentation.
+### Acknowledgments
+I received inspiration for this project from [a link](https://github.com/damianism/custom_pc)
