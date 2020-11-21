@@ -1,5 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
+/*  ---------------------------------------------------------  Header  */
+
+/*  Logo    */
+
+.logo {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    position: absolute;
+}
+
+.logo p {
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/*  Navbar   */
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding-left: 6vh;
+    padding-right: 6vh;
+}
+
+/*  Menu Items  */
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    display: block;
+    padding-top: 37px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    transition-duration: 0.4s;
+}
+
+.menuitem span {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    width: 100%;
+}
+
+.menuitem span:hover {
+    color: purple;
+}
+
+.menuitem:hover {
+    border-bottom: 2px solid purple;
+    border-radius: 70px;
+    transition-duration: 0.6s;
+}
+
+/* --------------------------- Section */
+
+/*  Callout */
+
 .callout {
     background: rgba(0,0,0, 0.8);
     background-image: url("../images/landing.jpg");
@@ -24,6 +107,8 @@
     margin-bottom: 50px;
 }
 
+/*  Callout button  */
+
 .btn {
     border: 5px solid purple;
     border-radius: 30px;
@@ -39,6 +124,8 @@
     border-color: #fafafa;
 }
 
+/*  Footer  */
+
 footer {
     background-color: #535454;
     color: #fafafa;
@@ -46,6 +133,9 @@ footer {
     margin: 0;
     text-align: center;
 }
+
+/*  Text adjustments    */
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -55,6 +145,8 @@ footer {
     font-weight: 300;
     color: #fafafa;
 }
+
+/*  Footer>> Social links   */
 
 .social-links {
     padding-bottom: 15px;
