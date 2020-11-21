@@ -130,6 +130,7 @@ form {
     justify-content: center;
     height: 100vh;
     padding: 0;
+    margin: 0;
     font-family: "Goldman", sans-serif;
 }
 
@@ -314,7 +315,7 @@ form {
 footer {
     background-color: #535454;
     color: #fafafa;
-    height: 100px;
+    height: 100%;
     margin: 0;
     text-align: center;
 }
